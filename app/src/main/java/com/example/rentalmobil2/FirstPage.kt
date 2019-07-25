@@ -22,9 +22,6 @@ class FirstPage : AppCompatActivity() {
             val intent = Intent(this, AboutUs::class.java)
             startActivity(intent)
         }
-        btnclose.setOnClickListener {
-
-        }
     }
     var doubleBackToExitOnce:Boolean = false
 
